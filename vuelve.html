@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vuelve</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Karla:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    background: #F6F1EC;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    padding: 32px;
+  }
+
+  .card {
+    max-width: 560px;
+    text-align: center;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #A98F7A;
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.35;
+    color: #4A3F38;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #6B5D52;
+    margin-bottom: 20px;
+  }
+
+  .signature {
+    margin-top: 40px;
+    font-size: 15px;
+    color: #A98F7A;
+    letter-spacing: 0.03em;
+  }
+
+  .underline {
+    display: inline-block;
+    position: relative;
+  }
+
+  .underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 2px;
+    background: #C98A5E;
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="eyebrow">hola, mi amor propio</div>
+
+    <h1>Sé que estás cansado, o aburrido, o solo quieres un respiro.<br>Está bien sentir eso.</h1>
+
+    <p>Pero tú ya sabes lo que de verdad te llena: un libro en las manos, una idea nueva entendida, esas 20 páginas antes de dormir. Tú eliges construir — tu carrera, tu doctorado, la vida que estás armando con ella.</p>
+
+    <p>No te estás perdiendo de nada ahí adentro.<br>Te estás esperando algo mejor aquí afuera.</p>
+
+    <p><span class="underline">Ve y agarra el libro.</span> Yo sé que puedes.</p>
+
+    <div class="signature">— tú, en tus mejores días</div>
+  </div>
+</body>
+</html>
